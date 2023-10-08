@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Cart</title>
+</head>
+<body>
+    <div class="container">
+        <div class="image">
+            <img src="images/image-product-1.jpg" alt="#" class="sneakershoe">
+            <div class="fourimage">
+                <img src="images/image-product-1-thumbnail.jpg" alt="#" class="sneakers">
+                <img src="images/image-product-2-thumbnail.jpg" alt="#" class="sneakers">
+                <img src="images/image-product-3-thumbnail.jpg" alt="#" class="sneakers">
+                <img src="images/image-product-4-thumbnail.jpg" alt="#" class="sneakers">
+            </div>
+        </div>
+        <div class="part2">
+            <p class="name">SNEAKER COMPANY</p>
+            <h2 class="edition">Fall Limited Edition Sneakers</h2>
+            <p class="about">These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they'll withstand everything the weather can offer.</p>
+            <div class="price">
+                <p class="price1">$125.00</p>
+                <p class="percent">50%</p>
+            </div>
+            <p class="price2">$250.00</p>
+            <div class="click">
+                <div class="increase">
+                    <p id="minus" class="sign" onclick="decreaseCount()">-</p>
+                    <p id="count" class="zero">0</p>
+                    <p id="plus" class="sign" onclick="increaseCount()">+</p>
+                </div>
+                <button class="cart">
+                    <img src="images/icon-cart.svg" alt="#" class="carts">
+                    <p>Add to cart</p>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
